@@ -27,7 +27,7 @@ const Ads = () => {
     
      {content.map((c,idx)=>(
     <Grid key={idx} item xs={12} sm={4} md={4} lg={4}  >
-      <AdsContent  data={c} onClick={handleCheckBox} onChangeCheckBox={handleCheckBox} />
+      <AdsContent  data={c} onChangeCheckBox={handleCheckBox} />
     </Grid>
      ))}
    

@@ -16,7 +16,7 @@ const Dashborad = () => {
          </Grid>
           <Grid item xs={12} sm={6} md={6} lg={6}>
            {toggle ?<GraphSample  /> : <TableSample rows={rows2} />}
-           <Paper elevation={5} style={iconStyle}>
+           <Paper elevation={0} style={iconStyle}>
              <CIcon icon={icon.cibAnaconda} style={{height:'2.5vh'}} size="sm" onClick={()=>setToggle(true)} /> 
              <CIcon icon={icon.cibAmericanExpress} style={{height:'2.5vh'}} size="sm" onClick={()=>setToggle(false)}/>
            </Paper>

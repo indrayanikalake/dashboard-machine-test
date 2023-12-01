@@ -41,7 +41,7 @@ const UserInfo = () => {
            
          </Grid>
          <br />
-         <div style={{display:'flex',  justifyContent:'flex-end', alignItems:'flex-end', padding:'1rem'}}>
+         <div className='button_style'>
             <Button component={Link} to='/Ads' variant='outlined'>Back</Button>
              <Button variant='contained' onClick={handleSubmit}>Submit</Button>
              

@@ -62,10 +62,10 @@ const GraphSample = () => {
           
         <Paper elevation={0}>
             <span>
-            <input  style={{borderRadius:'50px',background:'blue',width:'20%' }}/>40% Fmeale
+            <input  style={{borderRadius:'50px',background:'blue',width:'20%' }}/>40% Male
             </span><br />
             <span>
-            <input  style={{borderRadius:'50px',background:'red',width:'20%' }}/>35% Male
+            <input  style={{borderRadius:'50px',background:'red',width:'20%' }}/>35% Female
             </span><br />
             <span>
             <input  style={{borderRadius:'50px',background:'green',width:'20%' }}/>25% Unknown
